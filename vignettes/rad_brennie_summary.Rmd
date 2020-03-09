@@ -1,0 +1,23 @@
+---
+title: "rad_brennie_summary"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{rad_brennie_summary}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(radbrennie)
+```
+
+
+
+```{r}
+
+plot(rad_df)
+
+```
+
